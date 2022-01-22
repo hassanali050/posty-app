@@ -45,13 +45,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'db4free.net'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'posty_app_db'),
-            'username' => env('DB_USERNAME', 'posty_db_user'),
-            'password' => env('DB_PASSWORD', 'Vk8pTddKX3qkk.e'),
-            'unix_socket' => env('DB_SOCKET', ''),
+            'host' => 'db4free.net',
+            'port' => '3306',
+            'database' =>  'posty_app_db',
+            'username' => 'posty_db_user',
+            'password' => 'Vk8pTddKX3qkk.e',
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
